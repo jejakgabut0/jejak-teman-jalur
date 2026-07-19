@@ -22,9 +22,9 @@ header{
 
     display:flex;
     justify-content:space-between;
-    align-items:center;
+    align-items:flex-start;
 
-    padding:0 8%;
+    padding:6px 8% 0 8%;
 
     background:rgba(15,25,25,.85);
     backdrop-filter:blur(10px);
@@ -37,15 +37,16 @@ header{
 
 .logo{
     display:flex;
-    align-items:center;
-    gap:8px;
+    align-items:flex-start;
+    gap:4px;
+    flex-direction:column;
 }
 
 
 .logo img{
 
-    width:48px;
-    height:48px;
+    width:40px;
+    height:40px;
 
     object-fit:contain;
 
@@ -55,10 +56,10 @@ header{
 
 .logo h2{
 
-    font-size:20px;
+    font-size:16px;
     color:white;
     margin:0;
-    line-height:1;
+    line-height:0.9;
 
 }
 
@@ -67,7 +68,8 @@ header{
 .logo span{
 
     color:#8bc34a;
-    font-size:9px;
+    font-size:7px;
+    line-height:0.8;
 
 }
 

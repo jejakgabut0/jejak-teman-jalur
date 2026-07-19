@@ -38,7 +38,7 @@ header{
 .logo{
     display:flex;
     align-items:center;
-    gap:12px;
+    gap:8px;
 }
 
 
@@ -55,9 +55,10 @@ header{
 
 .logo h2{
 
-    font-size:24px;
+    font-size:20px;
     color:white;
     margin:0;
+    line-height:1;
 
 }
 
@@ -66,7 +67,7 @@ header{
 .logo span{
 
     color:#8bc34a;
-    font-size:11px;
+    font-size:9px;
 
 }
 

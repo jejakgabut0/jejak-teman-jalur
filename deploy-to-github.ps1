@@ -1,12 +1,7 @@
 param(
-    [string]$Username = "<username>",
+    [string]$Username = "jejakgabut0",
     [string]$RepoName = "jejak-teman-jalur"
 )
-
-if ($Username -eq "<username>") {
-    Write-Host "Ganti <username> dengan nama GitHub kamu di parameter -Username." -ForegroundColor Yellow
-    exit 1
-}
 
 $remoteUrl = "https://github.com/$Username/$RepoName.git"
 
